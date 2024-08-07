@@ -19,7 +19,7 @@ function Register() {
 
   function validate() {
     if (nameRef.current.value.length < 4) {
-      toast.error('Sizning malumotingiz kamida 4 ta belgidan iborat bo\'lishi kerak');
+      toast.error('Sizning malumotingiz kamida 4 ta belgidan iborat bolishi kerak');
       nameRef.current.focus();
       nameRef.current.style.outlineColor = 'red';
       return false;
@@ -40,7 +40,7 @@ function Register() {
     }
     const password = passwordRef.current.value;
     if (password.length < 3) {
-      toast.error('Parol kamida 3 ta belgidan iborat bo\'lishi kerak');
+      toast.error('Parol kamida 3 ta belgidan iborat bolishi kerak');
       passwordRef.current.focus();
       passwordRef.current.style.outlineColor = 'red';
       return false;

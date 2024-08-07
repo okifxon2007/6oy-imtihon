@@ -50,7 +50,7 @@ function Login() {
     })
       .then(response => response.json())
       .then(data => {
-        console.log(data); // Diagnostika uchun qo'shimcha
+        console.log(data); 
         if (data.message === 'Unauthorized') {
           alert(data.message);
         }
@@ -61,6 +61,7 @@ function Login() {
           localStorage.setItem('user', JSON.stringify(logindata));
           localStorage.setItem('accesstoken', data.access_token);
           navigate('/');
+          alert('siz muvafaqqiyatli royxatdan otdingiz')
         }
       })
       .catch(error => {

@@ -2,7 +2,7 @@ import React, { useRef, useState, useEffect } from 'react';
 import '../home/index.css';
 import user from '../../assets/img/user.webp';
 import defaultCar from '../../assets/img/cargif.gif';
-import { Navigate, useNavigate } from 'react-router-dom';
+import { useNavigate } from 'react-router-dom';
 
 function Home() {
   const Navigate = useNavigate('')
