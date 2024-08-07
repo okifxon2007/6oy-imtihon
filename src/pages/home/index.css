@@ -1,0 +1,275 @@
+
+.menu img{
+    width: 150px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+}
+.menu h1{
+    text-align: center;
+    align-items: center;
+}
+.menu{
+    margin-left: -0px;
+    height: 720px;
+    background-color:#1e335e;
+    width: 450px;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.homepage{
+    background-color:#2D4575;
+    height: 100%;
+}
+.conta{
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 2000px;
+}
+.menu li{
+    list-style-type: none;
+}
+.menu button{
+    margin-left: 30px;
+    width: 320px;
+    border-radius: 5px;
+    border: 2px solid transparent;
+    color: white;
+    background-color: rgb(255, 32, 32);
+    height: 40px;
+    font-size: 18px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    cursor: pointer;
+    
+}
+.homepagedf{
+    display: flex;
+}
+.button {
+    margin-left: 850px;
+    margin-top: 20px;
+    width: fit-content;
+    display: flex;
+    padding: 0.8em 1.1em;
+    gap: 0.4rem;
+    border: none;
+    font-weight: bold;
+    border-radius: 30px;
+    cursor: pointer;
+    text-shadow: 2px 2px 3px rgb(136 0 136 / 50%);
+    background: linear-gradient(
+        15deg,
+        #880088,
+        #aa2068,
+        #cc3f47,
+        #de6f3d,
+        #f09f33,
+        #de6f3d,
+        #cc3f47,
+        #aa2068,
+        #880088
+      )
+      no-repeat;
+    background-size: 300%;
+    background-position: left center;
+    transition: background 0.3s ease;
+    color: #fff;
+  }
+  .card {
+    width: 280px;
+    height: 150px;
+    background: rgb(17, 4, 134);
+    border-radius: 15px;
+    box-shadow: rgb(0,0,0,0.7) 5px 10px 50px ,rgb(0,0,0,0.7) -5px 0px 250px;
+    display: flex;
+    color: white;
+    justify-content: center;
+    position: relative;
+    flex-direction: column;
+    background: linear-gradient(to right, rgb(20, 30, 48), rgb(36, 59, 85));
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    overflow: hidden;
+    margin-top: 130px;
+    margin-left: 30px;
+  }
+  
+  .card:hover {
+    box-shadow: rgb(0,0,0) 5px 10px 50px ,rgb(0,0,0) -5px 0px 250px;
+  }
+  
+  .time-text {
+    font-size: 50px;
+    margin-top: 0px;
+    margin-left: 15px;
+    font-weight: 600;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+  
+  .time-sub-text {
+    font-size: 15px;
+    margin-left: 5px;
+  }
+  
+  .day-text {
+    font-size: 18px;
+    margin-top: 0px;
+    margin-left: 15px;
+    font-weight: 500;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+  
+  .moon {
+    font-size: 20px;
+    position: absolute;
+    right: 15px;
+    top: 15px;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .card:hover > .moon {
+    font-size: 23px;
+  }
+  
+  
+  .button:hover {
+    background-size: 320%;
+    background-position: right center;
+  }
+  
+  .button:hover svg {
+    fill: #fff;
+  }
+  
+  .button svg {
+    width: 23px;
+    fill: #f09f33;
+    transition: 0.3s ease;
+  }
+ .twofromdf{
+    display: flex;
+ } 
+  .twofrom {
+    border-radius: 8px;
+    margin-top: 70px;
+    width: 680px;
+    height: 270px;
+    margin-left: 30px;
+    background: linear-gradient(90deg, rgba(19,29,45,1) 59%, rgba(48,78,140,1) 100%);
+    transition: background 1s ease, transform 0.5s ease;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .twofrom:hover {
+    transform: scale(1.02);
+  }
+  
+
+  .twofrom input {
+    margin-left: 30px;
+  width: 350px;
+  height: 30px;
+  padding: 8px 12px;
+  border: 2px solid white;
+  border-radius: 4px;
+  background: rgba(19,29,45,0.8);
+  color: white;
+  font-size: 16px;
+  transition: background 0.5s ease, border-color 0.5s ease;
+}
+.twofrom input::placeholder{
+    color: #ffffff;
+}
+.twofrom input:focus {
+  background: rgba(19,29,45,1);
+  border-color: rgba(48,78,140,0.8);
+  outline: none;
+}
+.twofrom button{
+    width: 150px;
+    height: 40px;
+    background: linear-gradient(90deg, rgba(19,29,45,1) 59%, rgba(48,78,140,1) 100%);
+    transition: background 1s ease, transform 0.5s ease;
+    color: white;
+    font-size: 17px;
+    border-radius: 4px;
+    border: 1px solid white;
+    margin-left: 260px;
+    margin-top: 10px;
+
+}
+.twofrom button:hover{
+    background: linear-gradient(90deg, rgba(48,78,140,1) 21%, rgba(19,29,45,1) 59%);
+    transform: scale(1.02);
+}
+    .carding{
+        width: 205px;
+        height: 255px;
+        border: 2px solid #1e335e;
+        color: white;
+        margin-top: 35px;
+        background: linear-gradient(90deg, rgba(48,78,140,1) 21%, rgba(19,29,45,1) 59%);
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        border-radius: 5px;
+        margin-left: 8px;
+        flex: 0 0 auto; 
+    width: 200px; 
+    border: 1px solid transparent;
+    border-radius: 8px;
+    padding: 10px;
+    background-color: #f9f9f9;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+
+    }
+    .carding:hover{
+        transform: scale(1.02);
+        border: 2px solid #1e335e;
+    }
+    .carding img{
+        width: 205px;
+    }
+    .carding h3{
+        padding-left: 5px;
+    }
+    .carding p{
+        padding-left: 5px;
+    }
+    .cardingdf{
+        display: flex;
+        overflow-x: auto;
+        padding: 10px;
+        gap: 20px;
+        flex-wrap: wrap;
+    }
+
+    .carclear{
+      background: linear-gradient(90deg, rgba(48,78,140,1) 21%, rgba(19,29,45,1) 59%);
+    transform: scale(1.02);
+    height: 40px;
+    width: 130px;
+    color: white;
+    border-radius: 5px;
+    border: 1px solid white;
+    font-size: 15px;
+    margin-top: 283px;
+    transform: translateX(-250px);
+    }
+    .mbutdf{
+      margin-left: 420px;
+      display: flex;
+    }
+    .mbutdf button{
+      cursor: grab;
+      width: 150px;
+      height: 35px;
+      border-radius: 5px;
+      border: 3px solid white;
+      background: linear-gradient(90deg, rgba(48,78,140,1) 21%, rgba(19,29,45,1) 59%);
+      color: white;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      font-size: 15px;
+      transform: translateY(55px);
+      margin-left: 35px;
+    }
+    

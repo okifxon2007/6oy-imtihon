@@ -1,0 +1,30 @@
+
+.errorpage h1 {
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: 120px;
+    animation: errorAnimation 1s infinite;
+}
+
+@keyframes errorAnimation {
+    0% {
+        transform: translateX(0) translateY(0);
+        color: red;
+    }
+    25% {
+        transform: translateX(-20px) translateY(20px);
+        color: red;
+    }
+    50% {
+        transform: translateX(20px) translateY(-20px);
+        color: red;
+    }
+    75% {
+        transform: translateX(-20px) translateY(-20px);
+        color: red;
+    }
+    100% {
+        transform: translateX(20px) translateY(20px);
+        color: red;
+    }
+}

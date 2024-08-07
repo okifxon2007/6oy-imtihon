@@ -1,0 +1,119 @@
+.conta{
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1400px;
+}
+
+.imgpage img{
+    width: 780px;
+    margin-top: 20px;
+    border-top-left-radius: 40px;
+    border-bottom-left-radius: 40px;
+}
+.regdf{
+    display: flex;
+}
+.regpage{
+    width: 550px;
+    height: 715px;
+    background-color: white;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+.regpageimgdf{
+    display: flex;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-left: 40px;
+    margin-top: 20px;
+}
+.regpageimgdf img{
+    margin-top: 15px;
+    width: 50px;
+    height: 50px;
+}
+.regpageimgdf h1{
+    margin-left: 15px;
+}
+
+.regpage h2{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-left: 45px;
+}
+.regpage form{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-left: 42px;
+    
+}
+.regpage form input{
+    color: #8E8E8E;
+    width: 300px;
+    height: 39px;
+    border-radius: 5px;
+    border: 1px solid #cbcbcb;
+    background-color: #F2F2F2;
+    padding-left: 15px;
+    font-size: 16px;
+    
+    
+}
+.regpage label{
+    margin-left: 10px;
+}
+
+.twoform{
+    display: flex;
+
+}
+.twoform input{
+    margin-top: 30px;
+    margin-left: -120px;
+    
+}
+.twoform label{
+    position: absolute;
+    margin-top: 35px;
+    margin-left: 70px;
+}
+.twoform p{
+    color: #0078FC;
+    font-size: 15px;
+    margin-left: 20px;
+    transform: translateY(-7px);
+}
+.sign{
+    width: 328px;
+    height: 47px;
+    margin-left: 50px;
+    margin-top: 30px;
+    border-radius: 5px;
+    background-color: #0078FC;
+    border: 1px solid #0078FC;
+    color: white;
+    font-size: 18px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    cursor: pointer;
+}
+.googlebut{
+    width: 328px;
+    height: 47px;
+    margin-left: 50px;
+    margin-top: 30px;
+    border-radius: 5px;
+    background-color: black;
+    border: 1px solid black;
+    color: white;
+    font-size: 18px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    cursor: pointer;
+}
+.formvalue h3{
+    margin-left: 90px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 400;
+}
+.formvalue h3 span{
+    color: #0078FC;
+    font-weight: 400;
+    cursor: pointer;
+}

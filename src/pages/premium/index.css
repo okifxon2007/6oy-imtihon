@@ -1,0 +1,11 @@
+.visa img{
+  margin-left: auto;
+  margin-right: auto;
+  width: 800px;
+  height: 50%;
+}
+.visa{
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+}
