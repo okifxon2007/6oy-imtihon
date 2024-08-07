@@ -17,7 +17,7 @@ function App() {
     if (savedToken) {
       setToken(savedToken);
     } else {
-      navigate('/login');
+      navigate('/register');
     }
   }, [navigate]);
 
