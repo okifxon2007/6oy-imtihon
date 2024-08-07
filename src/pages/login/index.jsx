@@ -24,7 +24,7 @@ function Login() {
     }
     const password = passwordRef.current.value;
     if (password.length < 3) {
-      alert('Parol 6 ta bolishi kerak');
+      alert('Parol kamida 3 ta belgidan iborat bolishi kerak');
       passwordRef.current.focus();
       passwordRef.current.style.outlineColor = 'red';
       return false;
@@ -50,6 +50,7 @@ function Login() {
     })
       .then(response => response.json())
       .then(data => {
+        console.log(data); // Diagnostika uchun qo'shimcha
         if (data.message === 'Unauthorized') {
           alert(data.message);
         }
@@ -94,7 +95,7 @@ function Login() {
                 <p>Forgot password ?</p>
               </form>
               <button className="sign" onClick={loginclc}>Log in</button>
-              <button className="googlebut"><i className="fa-brands fa-google"></i> or sign in width Google</button>
+              <button className="googlebut"><i className="fa-brands fa-google"></i> or sign in with Google</button>
               <h3>Dont have an account? <span onClick={loginclik}>register</span></h3>
             </div>
           </div>

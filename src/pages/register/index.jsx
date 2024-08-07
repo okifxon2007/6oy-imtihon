@@ -39,8 +39,8 @@ function Register() {
       return false;
     }
     const password = passwordRef.current.value;
-    if (password.length < 6) {
-      toast.error('Parol kamida 6 ta belgidan iborat bolishi kerak');
+    if (password.length < 3) {
+      toast.error('Parol kamida 3 ta belgidan iborat bo\'lishi kerak');
       passwordRef.current.focus();
       passwordRef.current.style.outlineColor = 'red';
       return false;
@@ -68,6 +68,7 @@ function Register() {
     })
       .then(response => response.json())
       .then(data => {
+        console.log(data); 
         if (data.message === 'avatar must be a URL address') {
           toast.error(data.message);
         } else if (data.message === "password must be longer than or equal to 4 characters") {
